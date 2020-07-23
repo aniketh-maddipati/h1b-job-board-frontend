@@ -1,0 +1,8 @@
+.navbar {
+  width: 100%;
+  border: solid 1px black;
+}
+
+.nav-link {
+  border: 1px red solid;
+}
