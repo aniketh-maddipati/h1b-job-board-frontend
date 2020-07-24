@@ -4,38 +4,37 @@ import "./NavBar.css";
 const navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar w-100 navbar-expand-lg navbar-light ">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">
-            H1-B Job Board
-          </a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
-            <li class="nav-item active d-flex justify-content-end">
+        <a className="navbar-brand" href="#">
+          <img
+            src="https://img.icons8.com/pastel-glyph/64/000000/open-envelope--v2.png"
+            alt=""
+          ></img>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
               <a class="nav-link" href="#">
-                User Profile <span class="sr-only">(current)</span>
+                <img
+                  src="https://img.icons8.com/pastel-glyph/128/000000/user-male--v1.png"
+                  className="rounded-circle"
+                  alt=""
+                ></img>
+                {/* User <span class="sr-only">(current)</span> */}
               </a>
             </li>
-            {/* <li class="nav-item">
-              <a class="nav-link" href="#">
-                Link
-              </a>
-            </li> */}
-            {/* <li class="nav-item">
-              <a class="nav-link disabled" href="#">
-                Disabled
-              </a>
-            </li> */}
           </ul>
         </div>
       </nav>

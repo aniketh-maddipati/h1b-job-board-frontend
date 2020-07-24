@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/NavBar";
 import SearchBar from "./components/SearchBar";
+import Title from "./components/Title";
 
 // function App() {
 //   return (
@@ -15,8 +16,9 @@ import SearchBar from "./components/SearchBar";
 class App extends React.Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div>
         <Navbar />
+        <Title />
         <SearchBar />
       </div>
     );
