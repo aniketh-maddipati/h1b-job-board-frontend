@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/h1b-job-board-frontend/static/css/main.d7cd84bf.chunk.css",
+    "main.js": "/h1b-job-board-frontend/static/js/main.db02d51b.chunk.js",
+    "main.js.map": "/h1b-job-board-frontend/static/js/main.db02d51b.chunk.js.map",
+    "runtime-main.js": "/h1b-job-board-frontend/static/js/runtime-main.85241da4.js",
+    "runtime-main.js.map": "/h1b-job-board-frontend/static/js/runtime-main.85241da4.js.map",
+    "static/js/2.2cbf0697.chunk.js": "/h1b-job-board-frontend/static/js/2.2cbf0697.chunk.js",
+    "static/js/2.2cbf0697.chunk.js.map": "/h1b-job-board-frontend/static/js/2.2cbf0697.chunk.js.map",
+    "index.html": "/h1b-job-board-frontend/index.html",
+    "precache-manifest.8c51a9ede9ae46080ec918cd7ea05cda.js": "/h1b-job-board-frontend/precache-manifest.8c51a9ede9ae46080ec918cd7ea05cda.js",
+    "service-worker.js": "/h1b-job-board-frontend/service-worker.js",
+    "static/css/main.d7cd84bf.chunk.css.map": "/h1b-job-board-frontend/static/css/main.d7cd84bf.chunk.css.map",
+    "static/js/2.2cbf0697.chunk.js.LICENSE.txt": "/h1b-job-board-frontend/static/js/2.2cbf0697.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85241da4.js",
+    "static/js/2.2cbf0697.chunk.js",
+    "static/css/main.d7cd84bf.chunk.css",
+    "static/js/main.db02d51b.chunk.js"
+  ]
+}
